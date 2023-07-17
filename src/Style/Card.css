@@ -1,32 +1,20 @@
 .card {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 350px;
-    height: 120vh;
     padding: 12px;
     background: #eef0eb;
     margin-block: 0.5rem;
-    border-radius: 5px;
     text-align: center;
 }
 
 .card > img {
-    width: 100%;
-    display: block;
     mix-blend-mode: multiply;
 }
 
-.card > h1 {
-    font-size: 25px;
-}
 
-/*
-    Ash gray : b4b8ab;
-    prussina blue : 153243;
-    indigo dye : 284b63;
-    invory : f4f9e9;
-    alabstar: eef0eb;
-*/
+.sizes {
+    width: 24%;
+    height: 300px;
+}
